@@ -1,6 +1,6 @@
-# Setup macOS - Script Post-Formato de Franco
+# Script Post-Formato 
 
-Este repositorio contiene un script para configurar rápidamente un Mac con Apple Silicon después de una instalación limpia o formateo.  
+Un script para configurar rápidamente un Mac con Apple Silicon después de una instalación limpia o formateo.  
 El objetivo es instalar herramientas esenciales, apps útiles y dejar el sistema optimizado para desarrollo y uso diario.
 
 ---
