@@ -14,16 +14,19 @@ El objetivo es instalar herramientas esenciales, apps útiles y dejar el sistema
 
 ## ¿Qué hace el script?
 
-1. Instala Homebrew (si no está instalado).
-2. Instala herramientas CLI esenciales:
-   - git, htop, neofetch, bat, wget, tree
-3. Instala apps gráficas básicas (puedes agregar más):
-   - Visual Studio Code, Brave Browser, iTerm2, Discord, Rectangle
-4. Instala lenguajes de programación:
-   - Python, Node.js, Dart
-5. Configura ajustes del sistema para mejorar rendimiento:
-   - Reduce animaciones y transparencias
-6. Opcionalmente instala herramientas adicionales y personaliza según tus necesidades.
+Este script es interactivo: al ejecutarlo, verás un menú donde puedes elegir qué secciones instalar o configurar. Incluye opciones para:
+
+- Instalar Homebrew (si no está instalado).
+- Instalar herramientas CLI esenciales:
+  - git, htop, neofetch, bat, wget, tree
+- Instalar apps gráficas:
+  - Visual Studio Code, Brave Browser, iTerm2, Discord, Rectangle
+- Instalar lenguajes de programación:
+  - Python, Node.js, Dart
+- Instalar Xcode Command Line Tools.
+- Aplicar configuraciones del sistema para mejor rendimiento:
+  - Reduce animaciones y transparencias
+- Ejecutar todas las opciones anteriores de una sola vez.
 
 ---
 
@@ -42,7 +45,7 @@ cd franco-setup
 chmod +x setup-macos.sh
 ```
 
-3. Ejecuta el script:
+3. Ejecuta el script y sigue las instrucciones del menú:
 
 ```bash
 ./setup-macos.sh
